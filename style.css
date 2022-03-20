@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(255, 230, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form{
+    background: #fff;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 25px 5px rgba(0, 0, 0, 0.2);
+}
+form input, form button{
+    padding: 8px 5px;
+    border-radius: 5px;
+}
+
+form input{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+form button{
+    border: none;
+    background: rgb(255, 230, 0);
+    color: #fff;
+}
+
+.cb{
+    display: inline-block;
+}
+
+.nam{
+    text-align: center;
+    font-weight:700
+}
+
+.gray{
+    color: rgba(0, 0, 0, 0.5);
+}
+.pf{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* nav{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: .5s all ease;
+} */
