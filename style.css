@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    font-weight:700;
 }
 
 body{
@@ -46,7 +47,7 @@ form button{
 
 .nam{
     text-align: center;
-    font-weight:700
+    font-weight:700;
 }
 
 .gray{
